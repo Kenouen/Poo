@@ -2,8 +2,7 @@ package br.edu.ifpb;
 
 import java.util.Objects;
 
-public class City implements Comparable<City> {
-
+public class City implements Comparable<City>{
     private String nome;
     private String sigla;
     private String codigo;
@@ -51,9 +50,8 @@ public class City implements Comparable<City> {
         return Objects.hash(nome);
     }
 
-
     @Override
     public int compareTo(City o) {
-        return getNome().compareTo(o.getNome());
+        return this.getNome().compareTo(o.getNome());
     }
 }
