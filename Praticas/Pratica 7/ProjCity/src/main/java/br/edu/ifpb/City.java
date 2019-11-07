@@ -38,6 +38,15 @@ public class City implements Comparable<City>{
     }
 
     @Override
+    public String toString() {
+        return "City{" +
+                "nome='" + getNome() + '\'' +
+                ", sigla='" + getSigla() + '\'' +
+                ", codigo='" + getCodigo() + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
