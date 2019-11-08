@@ -1,0 +1,8 @@
+a- Sim;
+b- Sem repetições, mas tambem sem ordem;
+c- Sim;
+d- Sim;
+e- Pode-se criar um construtor, mas só será utilizado em seus filhos;
+f- Sim;
+g- Comparator só é necessario em Treeset<>;
+h- Sim;
