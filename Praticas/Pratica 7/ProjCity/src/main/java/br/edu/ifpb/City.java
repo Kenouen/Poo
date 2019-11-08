@@ -1,8 +1,6 @@
 package br.edu.ifpb;
 
-import java.util.Iterator;
 import java.util.Objects;
-import java.util.function.Consumer;
 
 public class City implements Comparable<City>{
     private String nome;
