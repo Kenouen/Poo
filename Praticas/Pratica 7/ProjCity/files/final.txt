@@ -1,0 +1,19 @@
+Albuquerque,NM,555417
+Baltimore,MD,621342
+Long Beach,CA,467892
+Washington,DC,632323
+Seattle,WA,634535
+Virginia Beach,VA,447021
+Atlanta,GA,443775
+Kansas,MO,464310
+Milwaukee,WI,598916
+Oklahoma,OK,599199
+Portland,OR,603106
+Denver,CO,634265
+Louisville/Jefferson County,KY,605110
+Sacramento,CA,475516
+Nashville-Davidson,TN,624496
+Tucson,AZ,524295
+Las Vegas,NV,596424
+Fresno,CA,505882
+Mesa,AZ,452084

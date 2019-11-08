@@ -2,12 +2,10 @@ package br.edu.ifpb;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.*;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class Citybd {
+public class Citybd implements Iterable<City>{
     private Set<City> cityset;
     private Path filepath;
 
@@ -33,11 +31,24 @@ public class Citybd {
         return null;
     }
 
-    @Override
-    public String toString() {
-        for (City city : cityset) {
-            System.out.println(city.toString());
+    public boolean writesetofcities(String destino) {
+        try {
+            Path saida = Paths.get(destino);
+            List<City> a = List.copyOf(this.cityset);
+            Files.write(saida,
+                        cityset.stream().map(City :: toString).collect(Collectors.toSet()),
+                        Charset.defaultCharset(),
+                        StandardOpenOption.CREATE,
+                        StandardOpenOption.TRUNCATE_EXISTING);
+            return true;
+        } catch (IOException o) {
+            System.err.println("Erro ao escrever o arquivo.");
+            return false;
         }
-        return null;
+    }
+
+    @Override
+    public Iterator<City> iterator() {
+        return cityset.iterator();
     }
 }
