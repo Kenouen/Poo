@@ -40,6 +40,7 @@ public class ServidorSignos implements ObjetoRemotoSignos_IF{
 
             Registry registry = LocateRegistry.createRegistry(1099);
             registry.bind("mensagem", stub);
+            System.out.println("Servidor Pronto :)");
         }
 
         catch (IOException | AlreadyBoundException o) {
