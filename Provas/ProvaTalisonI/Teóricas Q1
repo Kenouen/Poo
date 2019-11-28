@@ -1,0 +1,7 @@
+1)
+
+    . Falso. Pois o metodo utilizado e sobrescrito, no qual a subclasse pode reescrever usando a assinatura do método pai;
+    
+    .Falso. Pois no polimorfismo, será usado o metodo da clase do filho, alocado a variavel do mesmo tipo do pai, que pode ter sido "overwhited" ou não;
+
+    .Verdade.

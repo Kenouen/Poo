@@ -1,0 +1,19 @@
+"Estamos inicialmente no diretorio home do usuario":
+
+1- mkdir Q2
+
+2- cd Q2
+
+3- mkdir src bin
+
+4- cd src
+
+5- nano Um.java (escreve as linhas de Um.java)
+
+6- nano Outro.java (escreve as linhas de Outro.java)
+
+7- javac ./* -d ../bin
+
+8- jar -cvmf MANIFEST.txt java.jar -C *.class
+
+9- java -jar java.jar
