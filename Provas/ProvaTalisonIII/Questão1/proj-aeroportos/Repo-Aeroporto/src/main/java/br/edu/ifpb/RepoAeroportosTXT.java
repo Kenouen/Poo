@@ -78,9 +78,11 @@ public class RepoAeroportosTXT {
 
     public String editarNomeAeroporto(String ID, String novoNome) throws IOException {
 
-        if (novoNome.isEmpty() || ID.isEmpty() || !mapa.containsKey(ID)) return "Erro: Não foi possível editar o nome!";
+        if (novoNome.equals("")) return "Erro1: Não foi possível editar o nome!";
+        if (ID.equals("")) return "Erro2: Não foi possível editar o nome!";
+        if (!mapa.containsKey(ID)) return "Erro3: Não foi possível editar o nome!";
 
-        mapa.replace(ID, novoNome);
+        mapa.replace(ID, novoNome.substring(1));
         atualizarTXT();
 
         return "Nome do aeroporto foi atualizado com sucesso!";

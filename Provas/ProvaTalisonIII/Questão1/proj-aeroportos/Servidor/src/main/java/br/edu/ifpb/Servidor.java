@@ -22,7 +22,6 @@ public class Servidor implements ObjetoRemoto_IF{
     @Override
     public String editarNomeAeroporto(String ID, String novoNome) throws RemoteException, IOException { return repo.editarNomeAeroporto(ID, novoNome);}
 
-
     public static void main(String[] args) {
         try {
             Servidor a = new Servidor();

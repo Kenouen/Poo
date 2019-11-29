@@ -2,36 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dcd22b6-8541-455d-98d3-88d13f8ca02f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proj-aeroportos-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/ObjetoRemoto_IF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/Repo-Aeroporto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/src/main/java/br/edu/ifpb/RepoAeroportosTXT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/Servidor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/ObjetoRemoto_IF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/airports.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/proj-aeroportos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/src/main/java/br/edu/ifpb/RepoAeroportosTXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/src/main/java/br/edu/ifpb/RepoAeroportosTXT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/Servidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj-aeroportos/airports.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../proj-aeroportos/airports.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +28,7 @@
   <component name="ProjectId" id="1UIt7mD7UUYcUdtTbkCUffWCCpb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/edu/ifpb" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -107,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1575055771351</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;half way done&quot;">
+      <created>1575056657941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575056657941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;half way done&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;half way done&quot;" />
   </component>
 </project>
