@@ -22,15 +22,11 @@ public class Servidor implements ObjetoRemoto_IF {
 
     public Servidor() {
         this.mapa = new TreeMap<>();
-        this.p = Paths.get("/home/kenin/Desktop/poo/Praticas/Pratica 10/Proj-Aero/files/airports.txt");
+        this.p = Paths.get("./files/airports.txt");
         InputStream inputStream = Servidor.class.getResourceAsStream("/files/airports.txt");
-        System.out.println("1");
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream); // ponte
-        System.out.println("2");
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        System.out.println("3");
         List<String> aux = bufferedReader.lines().collect(Collectors.toList());
-        System.out.println(Path.of(String.valueOf(inputStream)));
         for (String s : aux) {
             List<String> aux2 = Arrays.asList(s.split(","));
             mapa.put(aux2.get(0), aux2.get(1));
@@ -53,6 +49,9 @@ public class Servidor implements ObjetoRemoto_IF {
     public String CadastrarAeroporto(String id, String Cidade) throws RemoteException {
         if (id.equals("") || Cidade.equals("")) {
             return "Cadastro Invalido";
+        }
+        if (Cidade.charAt(0) == ' '){
+            Cidade = Cidade.substring(1);
         }
         mapa.put(id, Cidade);
 
@@ -83,7 +82,7 @@ public class Servidor implements ObjetoRemoto_IF {
             for (String s : mapa.keySet()) {
                 String linha = "";
                 try {
-                    linha += s;
+                    linha += s + ",";
                     linha += mapa.get(s);
                     Files.write(p,
                             linha.lines().collect(Collectors.toUnmodifiableSet()),

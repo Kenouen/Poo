@@ -14,10 +14,39 @@ public class Cliente {
         try{
             registry = LocateRegistry.getRegistry(ip);
             ObjetoRemoto_IF stub = (ObjetoRemoto_IF) registry.lookup("Airports");
-            System.out.println("oi");
-            System.out.println(stub.CadastrarAeroporto("Tal", "Campina Grande"));
-            System.out.println(stub.removerAeroporto("Tal"));
 
+            Scanner s = new Scanner(System.in);
+            while (true){
+
+                System.out.println("Operações disponibilizadas:" + "\n" +
+                                    "0 - Cadastrar Aeroporto" + "\n" +
+                                    "1 - Remover Aeroporto" + "\n" +
+                                    "2 - Buscar por Sigla");
+
+                int a = s.nextInt();
+
+                if (a == 0) {
+                    System.out.println("ID (espaço) Aeroporto: ");
+                    String b = s.next();
+                    String c = s.nextLine();
+                    System.out.println(stub.CadastrarAeroporto(b, c));
+
+                }else if(a == 1) {
+                    System.out.println("ID: ");
+                    String d = s.next();
+                    System.out.println(stub.removerAeroporto(d));
+
+                }else if(a == 2) {
+                    System.out.println("ID: ");
+                    String e = s.next();
+                    System.out.println(stub.buscar(e));
+
+                }else if(a == 3){
+                    System.out.println("Saindo...");
+                    break;
+
+                }else System.out.println("Valor invalido");
+            }
         } catch (Exception e) {
             System.err.println("Erro ao rodar o programa, Erro: " + e.toString());;
         }
