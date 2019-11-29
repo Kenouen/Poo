@@ -20,28 +20,17 @@ public class Servidor implements ObjetoRemoto_IF {
     private Map<String, String> mapa;
     private Path p;
 
-    public Servidor() {
+    public Servidor() throws IOException {
         this.mapa = new TreeMap<>();
-        this.p = Paths.get("./files/airports.txt");
-        InputStream inputStream = Servidor.class.getResourceAsStream("/files/airports.txt");
-        InputStreamReader inputStreamReader = new InputStreamReader(inputStream); // ponte
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-        List<String> aux = bufferedReader.lines().collect(Collectors.toList());
+        this.p = Paths.get("airports.txt");
+//        InputStream inputStream = Servidor.class.getResourceAsStream("/files/airports.txt");
+//        InputStreamReader inputStreamReader = new InputStreamReader(inputStream); // ponte
+//        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+//        List<String> aux = bufferedReader.lines().collect(Collectors.toList());
+        List<String> aux = Files.readAllLines(p, Charset.defaultCharset());
         for (String s : aux) {
             List<String> aux2 = Arrays.asList(s.split(","));
             mapa.put(aux2.get(0), aux2.get(1));
-        }
-
-    }
-    public static void main(String[] args) {
-        try {
-            Servidor a = new Servidor();
-            ObjetoRemoto_IF stub = (ObjetoRemoto_IF) UnicastRemoteObject.exportObject(a, 0);
-            Registry registry = LocateRegistry.createRegistry(1099);
-            registry.bind("Airports", stub);
-            System.out.println("Servidor Pronto :)");
-        } catch (Exception o) {
-            System.err.println("Deu ruim1 :( Erro: " + o.toString());
         }
     }
 
@@ -50,7 +39,7 @@ public class Servidor implements ObjetoRemoto_IF {
         if (id.equals("") || Cidade.equals("")) {
             return "Cadastro Invalido";
         }
-        if (Cidade.charAt(0) == ' '){
+        if (Cidade.charAt(0) == ' ') {
             Cidade = Cidade.substring(1);
         }
         mapa.put(id, Cidade);
@@ -61,7 +50,7 @@ public class Servidor implements ObjetoRemoto_IF {
 
     @Override
     public String removerAeroporto(String id) throws RemoteException {
-        if (!mapa.containsKey(id))return "Erro ao remover :(" + mapa.get(id);
+        if (!mapa.containsKey(id)) return "Erro ao remover :(" + mapa.get(id);
 
         mapa.remove(id);
         if (this.atualizarTXT()) ;
@@ -70,7 +59,7 @@ public class Servidor implements ObjetoRemoto_IF {
 
     @Override
     public String buscar(String id) throws RemoteException {
-        if (mapa.containsKey(id)) {
+        if (!mapa.containsKey(id)) {
             return "Não existe :(";
         }
         return mapa.get(id);
@@ -100,4 +89,17 @@ public class Servidor implements ObjetoRemoto_IF {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        try {
+            Servidor a = new Servidor();
+            ObjetoRemoto_IF stub = (ObjetoRemoto_IF) UnicastRemoteObject.exportObject(a, 0);
+            Registry registry = LocateRegistry.createRegistry(1099);
+            registry.bind("Airports", stub);
+            System.out.println("Servidor Pronto :)");
+        } catch (Exception o) {
+            System.err.println("Deu ruim1 :( Erro: " + o.toString());
+        }
+    }
+
 }

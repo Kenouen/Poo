@@ -21,7 +21,8 @@ public class Cliente {
                 System.out.println("Operações disponibilizadas:" + "\n" +
                                     "0 - Cadastrar Aeroporto" + "\n" +
                                     "1 - Remover Aeroporto" + "\n" +
-                                    "2 - Buscar por Sigla");
+                                    "2 - Buscar por Sigla" + "\n" +
+                                    "3 - Sair");
 
                 int a = s.nextInt();
 
