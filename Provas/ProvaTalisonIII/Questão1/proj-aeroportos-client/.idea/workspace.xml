@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9dcd22b6-8541-455d-98d3-88d13f8ca02f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj-aeroportos-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/ifpb/ObjetoRemoto_IF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/Repo-Aeroporto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Repo-Aeroporto/src/main/java/br/edu/ifpb/RepoAeroportosTXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/Servidor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/ObjetoRemoto_IF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/Servidor/src/main/java/br/edu/ifpb/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/airports.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj-aeroportos/proj-aeroportos.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UIt7mD7UUYcUdtTbkCUffWCCpb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/br/edu/ifpb" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/br/edu/ifpb" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.edu.ifpb.Cliente" />
+      <module name="proj-aeroportos-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.ifpb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dcd22b6-8541-455d-98d3-88d13f8ca02f" name="Default Changelist" comment="" />
+      <created>1575055771351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575055771351</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
