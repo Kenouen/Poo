@@ -1,0 +1,155 @@
+ABEAllentown-Bethlehem-Easton International
+ABQAlbuquerque International
+AGCPittsburgh/Allegheny County
+AIYAtlantic City International
+ANCAnchorage International
+ARNArlanda (Stockholm Sweden)
+ATLAtlanta William B. Hartsfield International
+AUSAustin Robert Mueller Municipal
+AVLAsheville (NC) Regional
+BDLHartford/Springfield Bradley International
+BFISeattle Kings County International/Boeing Field
+BGRBangor International
+BHMBirmingham Municipal
+BILBillings Logan International
+BISBismarck Municipal
+BKLCleveland Lakefront
+BNANashville Metro
+BOIBoise Air Terminal/Gowen Field
+BOSBoston Logan International
+BTRBaton Rouge
+BTVBurlington International
+BUFBuffalo International
+BURBurbank/Glendale/Pasadena
+BWIBaltimore-Washington International
+CAEColumbia (SC) Metropolitan
+CAKAkron/Canton Regional
+CDGRoissy Charles de Gaulle Airport (Paris France)
+CGXChicago Merrill C. Meigs Field
+CHSCharleston (SC) International
+CLECleveland-Hopkins International
+CLTCharlotte/Douglas International
+CMHColumbus (OH) International
+CODYellowstone Regional Airport (Cody Wyoming)
+CPRCasper/Natrone County International
+CRMCharleston (WV) Yeager
+CRPCorpus Christi International
+CVGCincinnati International
+CYSCheyenne
+DALDallas Love Field
+DAYDayton James M. Cox International
+DCARonald Reagan Washington National
+DENDenver Stapleton International
+DETDetroit City
+DFWDallas-Ft. Worth International
+DSMDes Moines International
+DTWDetroit Metropolitan/Wayne County
+ELPEl Paso International
+EWRNewark International
+EYWKey West International
+FAIFairbanks International
+FARFargo Hector International
+FATFresno Air Terminal
+FLLFt. Lauderdale-Hollywood International
+FOETopeka Forbes Field
+FSDSioux Falls Regional
+FWAFt. Wayne Allen County
+GEGSpokane International
+GRRGrand Rapids/Kent County International
+GSOGreensboro-High Pt.-Winston Salem Regional
+HNLHonolulu International
+HOTHot Springs Memorial Field
+HOUHouston William P. Hobby
+HPNWhite Plains/Westchester County
+HUFTerre Haute Hulman Regional
+HVNNew Haven Tweed
+IADWashington Dulles
+IAHHouston Intercontinental
+ICTWichita Mid-Continent
+ILGWilmington/New Castle County
+INDIndianapolis International
+INTWinston-Salem Smith Reynolds
+ITHIthaca Tompkins County
+ITOHilo General Lyman Field
+JANJackson Municipal/Thompson Field
+JAXJacksonville (FL) International
+JFKNew York John F. Kennedy International
+JNUJuneau International
+KOAKailua-Kona Keahole (HI)
+LANLansing Capital City
+LASLas Vegas McCarran International
+LAXLos Angeles International
+LGANew York La Guardia
+LGBLong Beach Daugherty Field
+LIHLihue (HI)
+LITLittle Rock Regional
+LNKLincoln Municipal
+MBSSaginaw Tri-City
+MCIKansas City International
+MCOOrlando International
+MDTHarrisburg International
+MDWChicago Midway
+MEMMemphis International
+MGMMontgomery Municipal/Dannelly Field
+MHTManchester
+MIAMiami International
+MKCKansas City Downtown
+MKEMilwaukee General Mitchell International
+MLIMoline Quad City
+MOBMobile Municipal/Bates Field
+MSNMadison (WI) Dane County Regional
+MSOMissoula County
+MSPMinneapolis-St. Paul International
+MSYNew Orleans International
+OAJJacksonville (NC) Albert J. Ellis
+OAKOakland International
+OGGKahului (HI)
+OKCOklahoma City Will Rogers World
+OLMOlympia (WA)
+OMAOmaha Eppley Airfield
+ONTOntario (CA) International
+ORDChicago-O'Hare International
+ORFNorfolk International
+ORYOrly Airport (Paris France)
+PBIPalm Beach International
+PDXPortland (OR) International
+PHFNewport News Patrick Henry International
+PHLPhiladelphia International
+PHXPhoenix Sky Harbor International
+PIESt. Petersburg/Clearwater
+PITPittsburgh International
+PSPPalm Springs Municipal
+PVDProvidence Theodore Francis Green State
+PWMPortland (ME) International Jetport
+RDURaleigh-Durham
+RICRichmond International/Byrd Field
+RNOReno Cannon International
+ROCRochester International
+RSWFt. Meyers Southwest Florida Regional
+SANSan Diego International/Lindbergh Field
+SATSan Antonio International
+SAVSavannah International
+SBASanta Barbara Municipal
+SDFLouisville Standiford Field
+SEASeattle-Tacoma International
+SFOSan Francisco International
+SGFSpringfield (MO) Regional
+SJCSan Jose (CA) International
+SLCSalt Lake City International
+SMFSacramento Metro
+SNASanta Ana/Orange County/John Wayne
+SPSWichita Falls
+STLSt. Louis/Lambert International
+SUXSioux City International
+SVOSheremetyevo Airport (Moscow Russia)
+SYRSyracuse Hancock International
+TOLToledo Express
+TPATampa International
+TULTulsa International
+TUSTucson International
+TYSKnoxville McGhee Tyson
+UCAUtica/Oneida County
+YMXMirabel International (Montreal)
+YOWMcDonald-Cartier Internatial (Ottawa)
+YVRVancouver International
+YYZLester B. Pearson International (Toronto)
